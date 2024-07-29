@@ -1,13 +1,14 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "solignomiki.elyskinrestorer.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
     ],
     "client": [
+      "GetSkinUrlThreadMixin"
     ],
     "injectors": {
         "defaultRequire": 1
-  }
+    }
 }

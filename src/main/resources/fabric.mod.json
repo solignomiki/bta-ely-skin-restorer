@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "elyskinrestorer",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Ely.by Skin Restorer",
+  "description": "Restores skins from ely.by or TLauncher",
   "authors": [
-    "Turnip Labs"
+    "Sol i Gnomiki"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"solignomiki.elyskinrestorer.ElySkinRestorer"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"solignomiki.elyskinrestorer.ElySkinRestorer"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"solignomiki.elyskinrestorer.ElySkinRestorer"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"solignomiki.elyskinrestorer.ElySkinRestorer"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "elyskinrestorer.mixins.json"
   ],
 
   "depends": {
