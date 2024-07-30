@@ -4,9 +4,9 @@
     "package": "solignomiki.elyskinrestorer.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+      "GetSkinUrlThreadMixin"
     ],
     "client": [
-      "GetSkinUrlThreadMixin"
     ],
     "injectors": {
         "defaultRequire": 1

@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Ely.by Skin Restorer",
-  "description": "Restores skins from ely.by or TLauncher",
+  "description": "Restores skins from ely.by or TLauncher if there is no ely.by skin",
   "authors": [
     "Sol i Gnomiki"
   ],
